@@ -39,14 +39,6 @@ class ExampleModalGuiClass(QtGui.QDialog):
         self.label.show()
         #self.label.move(230,180)
         self.label.move(120,150)
-
-        self.label3 = QtGui.QLabel(self)
-        movie2 = QtGui.QMovie("C:/Users/Matheus/Desktop/duas.gif")
-        self.label3.setMovie(movie2)
-        movie2.start()
-        self.label3.show()
-        self.label3.move(20, 150)
-
         #
         self.textInput = QtGui.QLineEdit(self)
         self.textInput.setText("")

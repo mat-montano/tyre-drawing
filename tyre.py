@@ -1,4 +1,3 @@
-import PySide
 from PySide import QtGui, QtCore
 from PySide.QtGui import QPixmap, QMovie, QLabel
 from PySide.QtCore import *

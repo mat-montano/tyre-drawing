@@ -1,6 +1,5 @@
 from PySide import QtGui, QtCore
 from PySide.QtGui import QPixmap, QMovie, QLabel
-from PySide.QtCore import *
 from FreeCAD import Base
 import Part, Draft
 import math, string
